@@ -13,6 +13,8 @@ const History = ({data}) => {
     
   }, [data])
 
+
+    // Sort data by date 
   const sortData = () =>{
 
     data.sort(function(a,b){

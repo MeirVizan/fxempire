@@ -11,6 +11,7 @@ function App() {
 
   const [stockData, setStockData] = useState(null);
   useEffect(() => {
+    //conection to Web Socket
     const socket = new WebSocket('wss://wstest.fxempire.com?token=btctothemoon');
     setWs(socket);
 
