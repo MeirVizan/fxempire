@@ -1,0 +1,28 @@
+.stock-header {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1245px;
+    /* min-height: 70vh; */
+    margin: 0px auto;
+    color: rgb(51, 51, 51);
+
+}
+
+.stock-title {
+    background-color: rgb(255, 255, 255);
+    padding: 16px 40px;
+    margin-top: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 6px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+
+   
+}
+
+h1 , p {
+    margin: 0px 0px;
+}
